@@ -11,7 +11,7 @@ install:
   - yarn
 
 script:
-  - yarn test && yarn lint && sonar-scanner
+  - yarn test && yarn lint && yarn coverage && sonar-scanner
 
 cache:
   directories:
