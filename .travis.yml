@@ -8,10 +8,10 @@ addons:
     organization: "y-ah-github"
 
 install:
-  - npm install
+  - yarn
 
 script:
-  - npm run test && npm run tslint && sonar-scanner
+  - yarn test && yarn lint && sonar-scanner
 
 cache:
   directories:
