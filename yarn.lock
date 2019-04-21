@@ -1252,6 +1252,14 @@ mkdirp@0.5.1, mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
+mocha-sonarqube-reporter@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/mocha-sonarqube-reporter/-/mocha-sonarqube-reporter-1.0.1.tgz#a358fb3f98c9f87c832c11de9d2017d7a819f80e"
+  integrity sha1-o1j7P5jJ+HyDLBHenSAX16gZ+A4=
+  dependencies:
+    mkdirp "0.5.1"
+    xml-escape "1.1.0"
+
 mocha@^6.1.4:
   version "6.1.4"
   resolved "https://registry.yarnpkg.com/mocha/-/mocha-6.1.4.tgz#e35fada242d5434a7e163d555c705f6875951640"
@@ -2130,6 +2138,11 @@ write-file-atomic@^2.4.2:
     graceful-fs "^4.1.11"
     imurmurhash "^0.1.4"
     signal-exit "^3.0.2"
+
+xml-escape@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/xml-escape/-/xml-escape-1.1.0.tgz#3904c143fa8eb3a0030ec646d2902a2f1b706c44"
+  integrity sha1-OQTBQ/qOs6ADDsZG0pAqLxtwbEQ=
 
 y18n@^3.2.1:
   version "3.2.1"

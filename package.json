@@ -4,10 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "test": "mocha -r ts-node/register src/**/*.spec.ts --reporter mocha-sonarqube-reporter --reporter-options output=test-report.xml",
     "coverage": "nyc _mocha -r ts-node/register src/**/*.spec.ts",
     "uml": "tsuml --glob ./src/**/*.ts",
-    "lint": "tslint -c ./tslint.json './src/**/*.ts'"
+    "lint": "tslint -c ./tslint.json './src/**/*.ts' -t json -o tslint-report.json"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
@@ -15,6 +15,7 @@
     "@types/node": "^11.13.6",
     "chai": "^4.2.0",
     "mocha": "^6.1.4",
+    "mocha-sonarqube-reporter": "^1.0.1",
     "nyc": "^14.0.0",
     "prettier": "^1.17.0",
     "ts-node": "^8.1.0",
