@@ -1,0 +1,10 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:latest", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": ["./src/**/*.spec.ts"]
+  },
+  "jsRules": {},
+  "rules": {},
+  "rulesDirectory": []
+}
