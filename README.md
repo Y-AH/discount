@@ -26,3 +26,6 @@ To run the Linting tool use
 ```
 yarn lint
 ```
+
+#### Class Diagram
+![alt Diagram](classes.svg)
